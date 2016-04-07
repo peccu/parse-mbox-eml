@@ -1,0 +1,31 @@
+* parse mbox eml
+
+sample code using [node-mbox](https://github.com/robertklep/node-mbox) for mbox and [andris9/mailparser: Decode mime formatted e-mails](https://github.com/andris9/mailparser) for eml.
+
+** Usage
+
+*** parse eml to text
+#+BEGIN_SRC shell
+  $ node eml.js mail.eml
+#+END_SRC
+
+*** parse mbox to text
+#+BEGIN_SRC shell
+  $ node mbox.js mail.mbox
+#+END_SRC
+
+*** parse eml to JSON
+#+BEGIN_SRC shell
+  $ node emlToJSON.js mail.eml
+#+END_SRC
+
+*** parse mbox to JSON
+#+BEGIN_SRC shell
+  $ node mboxToJSON.js mail.mbox
+#+END_SRC
+
+** bonus
+   mbox splitter
+#+BEGIN_SRC shell
+  $ awk -f split-mbox.awk mail.mbox
+#+END_SRC
