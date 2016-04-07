@@ -1,6 +1,6 @@
 * parse mbox eml
 
-sample code using [node-mbox](https://github.com/robertklep/node-mbox) for mbox and [andris9/mailparser: Decode mime formatted e-mails](https://github.com/andris9/mailparser) for eml.
+sample code using [[https://github.com/robertklep/node-mbox][node-mbox]] for mbox and [[https://github.com/andris9/mailparser][mailparser]] for eml.
 
 ** Usage
 
