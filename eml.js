@@ -14,7 +14,8 @@ mailparser.on('attachment', function(attachment, mail){
 mailparser.on('end', function(mail){
   var headers = mail.headers;
   console.log('From   :', headers.from);
-  console.log('To     :', headers.to, '\n');
+  console.log('To     :', headers.to);
+  console.log('Date   :', headers.date);
   console.log('Subject:', headers.subject, '\n');
   if(mail.text){
     console.log('Body: ', mail.text);
